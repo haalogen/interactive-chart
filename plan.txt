@@ -1,0 +1,17 @@
+// Download (mb AJAX) currency exchange rates against RUB --
+// 20 positions (mb as JSON), monthly average values, 3 years 
+// (2014-2016) (36 points)
+
+// Parse loaded currency data and pass it to chart template
+
+
+// Feature of choosing a year to show
+// Idea #1 -- set x-axis borders
+// Idea #2 nullify an "unchecked" part of data,
+// for example: 2014 & 2016 only -- 
+// then nullify all data corresponding to 2015
+// (then we better split data by years: 2014, 2015, 2016)
+
+
+// Feature Line -- Column chart transition:
+// change   { type: 'column' / 'line'  }

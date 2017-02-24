@@ -7,7 +7,7 @@ http://api.fixer.io/2016-12-15?base=RUB
 */
 const NUM_POINTS = 12 * 3;
 const data = [];
-const urlDomain = 'http://api.fixer.io/';
+const urlDomain = 'https://api.fixer.io/';
 const urlQuery = 'base=RUB';
 
 
